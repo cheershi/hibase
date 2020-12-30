@@ -1,0 +1,507 @@
+2020-12-30 21:50:43.663  INFO [hibase-admin,,,] 19000 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='hibase-admin.yml'}]}
+2020-12-30 21:50:43.735  INFO [hibase-admin,,,] 19000 --- [restartedMain] c.h.hibaseadmin.HibaseAdminApplication   : No active profile set, falling back to default profiles: default
+2020-12-30 21:50:46.049  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:50:46.052  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:50:46.340  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:50:46.345  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:50:46.569  INFO [hibase-admin,,,] 19000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-30 21:50:46.572  INFO [hibase-admin,,,] 19000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-30 21:50:46.602  INFO [hibase-admin,,,] 19000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2020-12-30 21:50:46.723  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:50:47.214  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5d68e35d-ad11-380e-92a1-c978ba2cf32b
+2020-12-30 21:50:47.238  INFO [hibase-admin,,,] 19000 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-12-30 21:50:47.247  INFO [hibase-admin,,,] 19000 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-12-30 21:50:47.254  INFO [hibase-admin,,,] 19000 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-12-30 21:50:47.630  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ab34777] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.660  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$671b0a8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.673  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$e6215006] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.698  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRedisConfig' of type [com.hibase.hibaseadmin.config.MyRedisConfig$$EnhancerBySpringCGLIB$$3a2701c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.753  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$9e8de11b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.762  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicator' of type [org.springframework.boot.actuate.health.CompositeHealthIndicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.766  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.782  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$50933190] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.787  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$302/263601348] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.825  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.838  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.887  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.946  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$7e5ab554] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.966  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:47.999  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$c5a502a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:48.016  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$a1370dc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:48.026  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$da1eb693] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:48.034  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:48.081  INFO [hibase-admin,,,] 19000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76cd4a74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:50:48.858  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2020-12-30 21:50:48.881  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 21:50:48.881  INFO [hibase-admin,,,] 19000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-30 21:50:49.059  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 21:50:49.059  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5284 ms
+2020-12-30 21:50:49.086  INFO [hibase-admin,,,] 19000 --- [restartedMain] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-12-30 21:50:51.081  INFO [hibase-admin,,,] 19000 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-12-30 21:50:51.585  INFO [hibase-admin,,,] 19000 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-30 21:50:52.064  INFO [hibase-admin,,,] 19000 --- [restartedMain] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-12-30 21:50:52.064  INFO [hibase-admin,,,] 19000 --- [restartedMain] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-12-30 21:50:52.065  INFO [hibase-admin,,,] 19000 --- [restartedMain] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-12-30 21:50:52.313  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-30 21:50:52.885  WARN [hibase-admin,,,] 19000 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rolesServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hibase.hibaseadmin.mapper.role.RolesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-12-30 21:50:52.885  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-30 21:50:52.887  INFO [hibase-admin,,,] 19000 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-12-30 21:50:53.820  INFO [hibase-admin,,,] 19000 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-30 21:50:53.823  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2020-12-30 21:50:53.823  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-12-30 21:50:53.824  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-12-30 21:50:53.824  WARN [hibase-admin,,,] 19000 --- [restartedMain] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-12-30 21:50:53.838  INFO [hibase-admin,,,] 19000 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 21:50:54.124 ERROR [hibase-admin,,,] 19000 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rolesServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hibase.hibaseadmin.mapper.role.RolesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+	at com.hibase.hibaseadmin.HibaseAdminApplication.main(HibaseAdminApplication.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_221]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.10.RELEASE.jar:2.1.10.RELEASE]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hibase.hibaseadmin.mapper.role.RolesMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1662) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1221) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595) ~[spring-beans-5.1.11.RELEASE.jar:5.1.11.RELEASE]
+	... 24 common frames omitted
+
+2020-12-30 21:52:19.545  INFO [hibase-admin,,,] 15936 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='hibase-admin.yml'}]}
+2020-12-30 21:52:19.582  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.h.hibaseadmin.HibaseAdminApplication   : No active profile set, falling back to default profiles: default
+2020-12-30 21:52:20.976  WARN [hibase-admin,,,] 15936 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:52:20.979  WARN [hibase-admin,,,] 15936 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:52:21.143  WARN [hibase-admin,,,] 15936 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:52:21.147  WARN [hibase-admin,,,] 15936 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:52:21.334  INFO [hibase-admin,,,] 15936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-30 21:52:21.336  INFO [hibase-admin,,,] 15936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-30 21:52:21.360  INFO [hibase-admin,,,] 15936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2020-12-30 21:52:21.477  WARN [hibase-admin,,,] 15936 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-12-30 21:52:21.892  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f70e76e4-fffe-3b14-b7e5-41b18288cfa6
+2020-12-30 21:52:21.909  INFO [hibase-admin,,,] 15936 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-12-30 21:52:21.916  INFO [hibase-admin,,,] 15936 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-12-30 21:52:21.922  INFO [hibase-admin,,,] 15936 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-12-30 21:52:22.189  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6133307] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.218  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alicp.jetcache.anno.config.JetCacheProxyConfiguration' of type [com.alicp.jetcache.anno.config.JetCacheProxyConfiguration$$EnhancerBySpringCGLIB$$f27af61e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.229  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alicp.jetcache.anno.config.CommonConfiguration' of type [com.alicp.jetcache.anno.config.CommonConfiguration$$EnhancerBySpringCGLIB$$71813b96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.248  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRedisConfig' of type [com.hibase.hibaseadmin.config.MyRedisConfig$$EnhancerBySpringCGLIB$$c586ed51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.302  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$29edccab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.310  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicator' of type [org.springframework.boot.actuate.health.CompositeHealthIndicator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.314  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.329  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$dbf31d20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.334  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$302/1109454430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.371  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.384  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.418  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.471  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$9baa0e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.490  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.525  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$5104ee36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.539  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$2c96f956] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.549  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$657ea223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.556  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:22.607  INFO [hibase-admin,,,] 15936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$22d3604] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-30 21:52:23.272  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2020-12-30 21:52:23.294  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 21:52:23.294  INFO [hibase-admin,,,] 15936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-30 21:52:23.456  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 21:52:23.457  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3859 ms
+2020-12-30 21:52:23.481  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.c.s.SentinelWebAutoConfiguration     : [Sentinel Starter] register Sentinel CommonFilter with urlPatterns: [/*].
+2020-12-30 21:52:25.144  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-12-30 21:52:25.610  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-30 21:52:26.049  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-12-30 21:52:26.049  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-12-30 21:52:26.050  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-12-30 21:52:26.230  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-30 21:52:29.710  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-30 21:52:29.856  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.hibase.hibaseadmin.config.BusConfig  : queue name:event-organization
+2020-12-30 21:52:29.859  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.hibase.hibaseadmin.config.BusConfig  : exchange:spring-boot-exchange
+2020-12-30 21:52:29.867  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.hibase.hibaseadmin.config.BusConfig  : binding Queue [name=event-organization, durable=false, autoDelete=false, exclusive=false, arguments={}, actualName=event-organization] to Exchange [name=spring-boot-exchange, type=topic, durable=true, autoDelete=false, internal=false, arguments={}] with organization-resource
+2020-12-30 21:52:29.897  INFO [hibase-admin,,,] 15936 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-12-30 21:52:30.194  WARN [hibase-admin,,,] 15936 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-12-30 21:52:30.194  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-30 21:52:30.213  WARN [hibase-admin,,,] 15936 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-12-30 21:52:30.213  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-30 21:52:30.414  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 21:52:30.517  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-30 21:52:30.689  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-12-30 21:52:30.827  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.a.AbstractCacheAutoInit            : init cache area default , type= redis
+2020-12-30 21:52:30.856  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.a.AbstractCacheAutoInit            : init cache area longTime , type= redis
+2020-12-30 21:52:30.858  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.a.AbstractCacheAutoInit            : init cache area shortTime , type= redis
+2020-12-30 21:52:30.865  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.a.AbstractCacheAutoInit            : init cache area default , type= caffeine
+2020-12-30 21:52:30.867  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.a.AbstractCacheAutoInit            : init cache area longTime , type= caffeine
+2020-12-30 21:52:30.867  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.a.AbstractCacheAutoInit            : init cache area shortTime , type= caffeine
+2020-12-30 21:52:30.891  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.j.s.DefaultCacheMonitorManager       : cache stat period at 15 MINUTES
+2020-12-30 21:52:33.078  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'hibase-admin-1.springCloudBusInput' has 1 subscriber(s).
+2020-12-30 21:52:33.242  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-12-30 21:52:33.259  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-12-30 21:52:33.353  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-12-30 21:52:33.402  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-12-30 21:52:33.416  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@14d49725
+2020-12-30 21:52:33.508  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-12-30 21:52:33.553  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-12-30 21:52:33.553  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'hibase-admin-1.errorChannel' has 1 subscriber(s).
+2020-12-30 21:52:33.553  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-12-30 21:52:33.957  INFO [hibase-admin,,,] 15936 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='hibase-admin.yml'}]}
+2020-12-30 21:52:34.070  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.n.client.config.impl.ClientWorker    : [fixed-47.101.138.250_8848] [subscribe] hibase-admin.yml+DEFAULT_GROUP
+2020-12-30 21:52:34.073  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.nacos.client.config.impl.CacheData   : [fixed-47.101.138.250_8848] [add-listener] ok, tenant=, dataId=hibase-admin.yml, group=DEFAULT_GROUP, cnt=1
+2020-12-30 21:52:34.113  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [47.101.138.250:5672]
+2020-12-30 21:52:34.284  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#f0aa46d:0/SimpleConnection@30007ba4 [delegate=amqp://guest@47.101.138.250:5672/, localPort= 50259]
+2020-12-30 21:52:34.293  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (event-organization) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-12-30 21:52:34.505  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'hibase-admin-1.springCloudBusOutput' has 1 subscriber(s).
+2020-12-30 21:52:34.529  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.e0wzCMTETzWTy6h5w1p_Sw, bound to: springCloudBus
+2020-12-30 21:52:34.657  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.e0wzCMTETzWTy6h5w1p_Sw.errors
+2020-12-30 21:52:34.701  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'hibase-admin-1.springCloudBus.anonymous.e0wzCMTETzWTy6h5w1p_Sw.errors' has 1 subscriber(s).
+2020-12-30 21:52:34.702  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'hibase-admin-1.springCloudBus.anonymous.e0wzCMTETzWTy6h5w1p_Sw.errors' has 2 subscriber(s).
+2020-12-30 21:52:34.841  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.e0wzCMTETzWTy6h5w1p_Sw
+2020-12-30 21:52:34.844  INFO [hibase-admin,,,] 15936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-12-30 21:52:34.877  INFO [hibase-admin,,,] 15936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-12-30 21:52:34.919  INFO [hibase-admin,,,] 15936 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-12-30 21:52:35.238  INFO [hibase-admin,,,] 15936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
+2020-12-30 21:52:35.250  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"2.0.1.1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8010,"scheduled":false,"serviceName":"DEFAULT_GROUP@@hibase-admin","stopped":false,"weight":1.0} to beat map.
+2020-12-30 21:52:35.321  INFO [hibase-admin,,,] 15936 --- [restartedMain] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@hibase-admin with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"2.0.1.1","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8010,"weight":1.0}
+2020-12-30 21:52:35.400  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, hibase-admin 2.0.1.1:8010 register finished
+2020-12-30 21:52:35.404  INFO [hibase-admin,,,] 15936 --- [restartedMain] c.h.hibaseadmin.HibaseAdminApplication   : Started HibaseAdminApplication in 17.492 seconds (JVM running for 18.586)
+2020-12-30 21:52:35.528  INFO [hibase-admin,,,] 15936 --- [RMI TCP Connection(3)-2.0.1.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 21:52:35.529  INFO [hibase-admin,,,] 15936 --- [RMI TCP Connection(3)-2.0.1.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 21:52:35.549  INFO [hibase-admin,,,] 15936 --- [RMI TCP Connection(3)-2.0.1.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-12-30 21:52:36.341  INFO [hibase-admin,352ad92398a10677,352ad92398a10677,false] 15936 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-12-30 21:52:36.342  INFO [hibase-admin,352ad92398a10677,352ad92398a10677,false] 15936 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-12-30 21:53:50.276  INFO [hibase-admin,d968794a8df6b924,d968794a8df6b924,false] 15936 --- [http-nio-8010-exec-9] c.h.h.annotation.GlobalRequestAspect     : 执行Controller开始: Result com.hibase.hibaseadmin.web.user.UserController.query(String) 参数：[101]
+2020-12-30 21:53:50.294 DEBUG [hibase-admin,d968794a8df6b924,d968794a8df6b924,false] 15936 --- [http-nio-8010-exec-9] c.h.hibaseadmin.web.user.UserController  : query with username or mobile:101
+2020-12-30 21:53:50.621 DEBUG [hibase-admin,d968794a8df6b924,d968794a8df6b924,false] 15936 --- [http-nio-8010-exec-9] c.h.h.mapper.user.UserMapper.selectOne   : ==>  Preparing: SELECT id,name,mobile,username,password,description,enabled,account_non_expired,credentials_non_expired,account_non_locked,created_by,created_time,updated_by,updated_time,be_deleted FROM users WHERE be_deleted=false AND username = ? OR mobile = ? 
+2020-12-30 21:53:50.635 DEBUG [hibase-admin,d968794a8df6b924,d968794a8df6b924,false] 15936 --- [http-nio-8010-exec-9] c.h.h.mapper.user.UserMapper.selectOne   : ==> Parameters: 101(String), 101(String)
+2020-12-30 21:53:50.679 DEBUG [hibase-admin,d968794a8df6b924,d968794a8df6b924,false] 15936 --- [http-nio-8010-exec-9] c.h.h.mapper.user.UserMapper.selectOne   : <==      Total: 0
+2020-12-30 21:53:50.853 ERROR [hibase-admin,d968794a8df6b924,d968794a8df6b924,false] 15936 --- [http-nio-8010-exec-9] c.h.h.annotation.GlobalRequestAspect     : 捕获到EntityValidException异常:
+2020-12-30 21:54:26.543  INFO [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.annotation.GlobalRequestAspect     : 执行Controller开始: Result com.hibase.hibaseadmin.web.user.UserController.query(String) 参数：[admin]
+2020-12-30 21:54:26.543 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.hibaseadmin.web.user.UserController  : query with username or mobile:admin
+2020-12-30 21:54:26.715 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.mapper.user.UserMapper.selectOne   : ==>  Preparing: SELECT id,name,mobile,username,password,description,enabled,account_non_expired,credentials_non_expired,account_non_locked,created_by,created_time,updated_by,updated_time,be_deleted FROM users WHERE be_deleted=false AND username = ? OR mobile = ? 
+2020-12-30 21:54:26.715 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.mapper.user.UserMapper.selectOne   : ==> Parameters: admin(String), admin(String)
+2020-12-30 21:54:26.765 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.mapper.user.UserMapper.selectOne   : <==      Total: 1
+2020-12-30 21:54:26.773 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.m.u.U.selectList                   : ==>  Preparing: SELECT id,user_id,role_id,created_by,created_time,updated_by,updated_time,be_deleted FROM user_role_relation WHERE be_deleted=false AND user_id = ? 
+2020-12-30 21:54:26.773 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.m.u.U.selectList                   : ==> Parameters: 101(String)
+2020-12-30 21:54:26.820 DEBUG [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.m.u.U.selectList                   : <==      Total: 1
+2020-12-30 21:54:27.378  INFO [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.annotation.GlobalRequestAspect     : 执行Controller结束: Result com.hibase.hibaseadmin.web.user.UserController.query(String)， 返回值：{"code":"000000","data":{"updatedTime":1608189316000,"updatedBy":"system","credentialsNonExpired":true,"mobile":"","enabled":true,"password":"$2a$10$vYA9wKn/hVGOtwQw2eHiceeIGNBdfLYpDmbzHgBSVmOfHXPH4iYdS","roleIds":["101"],"createdBy":"system","name":"超级管理员","createdTime":1608189316000,"accountNonExpired":true,"id":"101","beDeleted":false,"username":"admin","accountNonLocked":true},"time":1609336467347,"mesg":"处理成功"}
+2020-12-30 21:54:27.378  INFO [hibase-admin,da2fd712eb553367,da2fd712eb553367,false] 15936 --- [http-nio-8010-exec-6] c.h.h.annotation.GlobalRequestAspect     : 耗时：834(毫秒).
+2020-12-30 21:55:01.020  INFO [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.annotation.GlobalRequestAspect     : 执行Controller开始: Result com.hibase.hibaseadmin.web.user.UserController.get(String) 参数：[101]
+2020-12-30 21:55:01.020 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.hibaseadmin.web.user.UserController  : get with id:101
+2020-12-30 21:55:01.126 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.mapper.user.UserMapper.selectById  : ==>  Preparing: SELECT id,name,mobile,username,password,description,enabled,account_non_expired,credentials_non_expired,account_non_locked,created_by,created_time,updated_by,updated_time,be_deleted FROM users WHERE id=? AND be_deleted=false 
+2020-12-30 21:55:01.126 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.mapper.user.UserMapper.selectById  : ==> Parameters: 101(String)
+2020-12-30 21:55:01.164 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.mapper.user.UserMapper.selectById  : <==      Total: 1
+2020-12-30 21:55:01.165 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.m.u.U.selectList                   : ==>  Preparing: SELECT id,user_id,role_id,created_by,created_time,updated_by,updated_time,be_deleted FROM user_role_relation WHERE be_deleted=false AND user_id = ? 
+2020-12-30 21:55:01.165 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.m.u.U.selectList                   : ==> Parameters: 101(String)
+2020-12-30 21:55:01.200 DEBUG [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.m.u.U.selectList                   : <==      Total: 1
+2020-12-30 21:55:01.390  INFO [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.annotation.GlobalRequestAspect     : 执行Controller结束: Result com.hibase.hibaseadmin.web.user.UserController.get(String)， 返回值：{"code":"000000","data":{"updatedTime":1608189316000,"updatedBy":"system","credentialsNonExpired":true,"mobile":"","enabled":true,"password":"$2a$10$vYA9wKn/hVGOtwQw2eHiceeIGNBdfLYpDmbzHgBSVmOfHXPH4iYdS","roleIds":["101"],"createdBy":"system","name":"超级管理员","createdTime":1608189316000,"accountNonExpired":true,"id":"101","beDeleted":false,"username":"admin","accountNonLocked":true},"time":1609336501389,"mesg":"处理成功"}
+2020-12-30 21:55:01.391  INFO [hibase-admin,2b6bfc296941b479,2b6bfc296941b479,false] 15936 --- [http-nio-8010-exec-4] c.h.h.annotation.GlobalRequestAspect     : 耗时：371(毫秒).
+2020-12-30 21:55:16.505  INFO [hibase-admin,492f39b1cec34349,492f39b1cec34349,false] 15936 --- [http-nio-8010-exec-5] c.h.h.annotation.GlobalRequestAspect     : 执行Controller开始: Result com.hibase.hibaseadmin.web.user.UserController.query(String) 参数：[admin]
+2020-12-30 21:55:16.506 DEBUG [hibase-admin,492f39b1cec34349,492f39b1cec34349,false] 15936 --- [http-nio-8010-exec-5] c.h.hibaseadmin.web.user.UserController  : query with username or mobile:admin
+2020-12-30 21:55:16.519  INFO [hibase-admin,492f39b1cec34349,492f39b1cec34349,false] 15936 --- [http-nio-8010-exec-5] c.h.h.annotation.GlobalRequestAspect     : 执行Controller结束: Result com.hibase.hibaseadmin.web.user.UserController.query(String)， 返回值：{"code":"000000","data":{"updatedTime":1608189316000,"updatedBy":"system","credentialsNonExpired":true,"mobile":"","enabled":true,"password":"$2a$10$vYA9wKn/hVGOtwQw2eHiceeIGNBdfLYpDmbzHgBSVmOfHXPH4iYdS","roleIds":["101"],"createdBy":"system","name":"超级管理员","createdTime":1608189316000,"accountNonExpired":true,"id":"101","beDeleted":false,"username":"admin","accountNonLocked":true},"time":1609336516518,"mesg":"处理成功"}
+2020-12-30 21:55:16.519  INFO [hibase-admin,492f39b1cec34349,492f39b1cec34349,false] 15936 --- [http-nio-8010-exec-5] c.h.h.annotation.GlobalRequestAspect     : 耗时：13(毫秒).
+2020-12-30 22:00:00.006  INFO [hibase-admin,,,] 15936 --- [JetCacheDefaultExecutor] c.alicp.jetcache.support.StatInfoLogger  : jetcache stat from 2020-12-30 21:52:30,886 to 2020-12-30 22:00:00,002
+cache        |       qps|   rate|           get|           hit|          fail|        expire|avgLoadTime|maxLoadTime
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+user::       |      0.01| 25.00%|             4|             1|             0|             0|      359.7|        404
+user::_local |      0.01| 25.00%|             4|             1|             0|             0|        0.0|          0
+user::_remote|      0.01|  0.00%|             3|             0|             0|             0|        0.0|          0
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+
+2020-12-30 22:03:08.264  WARN [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : failed to request http://47.101.138.250:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%222.0.1.1%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A8010%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40hibase-admin%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40hibase-admin&encoding=UTF-8&namespaceId=public from 47.101.138.250
+2020-12-30 22:03:08.267 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [NA] failed to request 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_221]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315) ~[na:1.8.0_221]
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:85) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:410) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:03:08.268 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : request 47.101.138.250:8848 failed.
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:47.101.138.250:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:424) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:03:08.268 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"2.0.1.1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8010,"scheduled":false,"serviceName":"DEFAULT_GROUP@@hibase-admin","stopped":false,"weight":1.0}
+
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([47.101.138.250:8848]) tried: failed to req API:47.101.138.250:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:15:00.001  INFO [hibase-admin,,,] 15936 --- [JetCacheDefaultExecutor] c.alicp.jetcache.support.StatInfoLogger  : jetcache stat from 2020-12-30 22:00:00,002 to 2020-12-30 22:15:00,001
+cache        |       qps|   rate|           get|           hit|          fail|        expire|avgLoadTime|maxLoadTime
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+user::       |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_local |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_remote|      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+
+2020-12-30 22:27:31.361  WARN [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : failed to request http://47.101.138.250:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%222.0.1.1%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A8010%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40hibase-admin%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40hibase-admin&encoding=UTF-8&namespaceId=public from 47.101.138.250
+2020-12-30 22:27:31.362 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [NA] failed to request 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_221]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315) ~[na:1.8.0_221]
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:85) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:410) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:27:31.362 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : request 47.101.138.250:8848 failed.
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:47.101.138.250:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:424) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:27:31.363 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"2.0.1.1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8010,"scheduled":false,"serviceName":"DEFAULT_GROUP@@hibase-admin","stopped":false,"weight":1.0}
+
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([47.101.138.250:8848]) tried: failed to req API:47.101.138.250:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:30:00.001  INFO [hibase-admin,,,] 15936 --- [JetCacheDefaultExecutor] c.alicp.jetcache.support.StatInfoLogger  : jetcache stat from 2020-12-30 22:15:00,001 to 2020-12-30 22:30:00,001
+cache        |       qps|   rate|           get|           hit|          fail|        expire|avgLoadTime|maxLoadTime
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+user::       |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_local |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_remote|      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+
+2020-12-30 22:39:21.821  WARN [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : failed to request http://47.101.138.250:8848/nacos/v1/ns/instance/beat?beat=%7B%22cluster%22%3A%22DEFAULT%22%2C%22ip%22%3A%222.0.1.1%22%2C%22metadata%22%3A%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D%2C%22period%22%3A5000%2C%22port%22%3A8010%2C%22scheduled%22%3Afalse%2C%22serviceName%22%3A%22DEFAULT_GROUP%40%40hibase-admin%22%2C%22stopped%22%3Afalse%2C%22weight%22%3A1.0%7D&serviceName=DEFAULT_GROUP%40%40hibase-admin&encoding=UTF-8&namespaceId=public from 47.101.138.250
+2020-12-30 22:39:21.822 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [NA] failed to request 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_221]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[na:1.8.0_221]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340) ~[na:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315) ~[na:1.8.0_221]
+	at com.alibaba.nacos.client.naming.net.HttpClient.request(HttpClient.java:85) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:410) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:39:21.822 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : request 47.101.138.250:8848 failed.
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:47.101.138.250:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:424) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:451) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) [nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:39:21.822 ERROR [hibase-admin,,,] 15936 --- [com.alibaba.nacos.naming.beat.sender] com.alibaba.nacos.client.naming          : [CLIENT-BEAT] failed to send beat: {"cluster":"DEFAULT","ip":"2.0.1.1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8010,"scheduled":false,"serviceName":"DEFAULT_GROUP@@hibase-admin","stopped":false,"weight":1.0}
+
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance/beat after all servers([47.101.138.250:8848]) tried: failed to req API:47.101.138.250:8848/nacos/v1/ns/instance/beat. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:386) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:309) ~[nacos-client-1.1.1.jar:na]
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:92) [nacos-client-1.1.1.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_221]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-12-30 22:45:00.009  INFO [hibase-admin,,,] 15936 --- [JetCacheDefaultExecutor] c.alicp.jetcache.support.StatInfoLogger  : jetcache stat from 2020-12-30 22:30:00,001 to 2020-12-30 22:45:00,008
+cache        |       qps|   rate|           get|           hit|          fail|        expire|avgLoadTime|maxLoadTime
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+user::       |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_local |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_remote|      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+
+2020-12-30 23:00:00.002  INFO [hibase-admin,,,] 15936 --- [JetCacheDefaultExecutor] c.alicp.jetcache.support.StatInfoLogger  : jetcache stat from 2020-12-30 22:45:00,008 to 2020-12-30 23:00:00,001
+cache        |       qps|   rate|           get|           hit|          fail|        expire|avgLoadTime|maxLoadTime
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+user::       |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_local |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_remote|      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+
+2020-12-30 23:15:00.001  INFO [hibase-admin,,,] 15936 --- [JetCacheDefaultExecutor] c.alicp.jetcache.support.StatInfoLogger  : jetcache stat from 2020-12-30 23:00:00,001 to 2020-12-30 23:15:00,001
+cache        |       qps|   rate|           get|           hit|          fail|        expire|avgLoadTime|maxLoadTime
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+user::       |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_local |      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+user::_remote|      0.00|  0.00%|             0|             0|             0|             0|        0.0|          0
+-------------+----------+-------+--------------+--------------+--------------+--------------+-----------+-----------
+
