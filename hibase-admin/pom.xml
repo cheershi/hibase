@@ -3,8 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
-
     <groupId>com.hibase</groupId>
     <artifactId>hibase-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -13,7 +11,7 @@
 
     <parent>
         <groupId>com.hibase</groupId>
-        <artifactId>hibase-web</artifactId>
+        <artifactId>hibase-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -52,6 +50,20 @@
                         </resource>
                     </resources>
                 </configuration>
+            </plugin>
+            <!--springboot插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.4.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

@@ -7,7 +7,6 @@ import lombok.Data;
 import javax.validation.constraints.NotBlank;
 
 
-
 @Data
 @ApiModel("操作对象id和分页")
 public class OperationIdAndPageEntity extends PageBase {
