@@ -1,0 +1,50 @@
+/*
+ * Copyright (c) 2011-2020, baomidou (jobob@qq.com).
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ * <p>
+ * https://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+package com.baomidou.mybatisplus.generator.config;
+
+/**
+ * 定义常量
+ *
+ * @author hufeng
+ * @since 2019-05-29
+ */
+public enum  EntityEnum {
+
+    INSERTVO("InsertVO", "新增VO"),
+    UPDATEVO("UpdateVO", "修改VO"),
+    LISTVO("ListVO", "列表展示VO"),
+    SEARCHVO("SearchVO", "查询条件VO"),
+    VIEWVO("ViewVO", "详情VO"),
+    IMPORTVO("ImportVO", "导入VO"),
+    EXPORTVO("ExportVO", "导出VO");
+
+    private String value;
+    private String name;
+
+    EntityEnum(String name, String value){
+
+        this.name = name;
+        this.value = value;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public String getName() {
+        return name;
+    }
+}

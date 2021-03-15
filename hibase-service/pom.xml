@@ -5,14 +5,12 @@
     <parent>
         <artifactId>hibase</artifactId>
         <groupId>com.hibase</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.hibase</groupId>
     <artifactId>hibase-service</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
 
     <modules>
         <module>hibase-web</module>
@@ -26,13 +24,14 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+
         <!--web基础类库-->
         <dependency>
             <groupId>com.hibase</groupId>
             <artifactId>web</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <!--数据库-->
         <dependency>
@@ -44,42 +43,32 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.39</version>
         </dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
             <scope>test</scope>
-            <version>5.1.3</version>
         </dependency>
         <!--Swagger2 - RESTful API文档-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-
-        <!--mybatis plus依赖包-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-            <version>2.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.2.3</version>
+        </dependency>
+        <!--easyexcel-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>1.1.2-beta5</version>
         </dependency>
 
     </dependencies>

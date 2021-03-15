@@ -2,35 +2,31 @@ package com.hibase.hibaseweb.web;
 
 
 import com.hibase.common.core.entity.vo.Result;
-import com.hibase.common.core.util.SpringContextUtil;
-import com.hibase.hibaseweb.service.BaseService;
-
-import javax.servlet.http.HttpServletRequest;
 
 public abstract class BaseController<T> {
 
-    public static final String GENERATE_CURD_ENTITY = "curd_entity";
-
-    public String getEntityClass(HttpServletRequest request) {
-
-        return request.getHeader(GENERATE_CURD_ENTITY);
-    }
-
-    public static BaseService getEntityMapper(String entityClass) {
-
-        String iserviceName = entityClass.replaceAll("entity", "service.impl").replaceAll("dataobject\\.", "") + "Mapper";
-
-        try {
-
-            Class serviceClass = Class.forName(iserviceName);
-            BaseService iService = (BaseService) SpringContextUtil.getBean(serviceClass);
-
-            return iService;
-        } catch (Exception e) {
-
-            return null;
-        }
-    }
+//    public static final String GENERATE_CURD_ENTITY = "curd_entity";
+//
+//    public String getEntityClass(HttpServletRequest request) {
+//
+//        return request.getHeader(GENERATE_CURD_ENTITY);
+//    }
+//
+//    public static BaseService getEntityMapper(String entityClass) {
+//
+//        String iserviceName = entityClass.replaceAll("entity", "service.impl").replaceAll("dataobject\\.", "") + "Mapper";
+//
+//        try {
+//
+//            Class serviceClass = Class.forName(iserviceName);
+//            BaseService iService = (BaseService) SpringContextUtil.getBean(serviceClass);
+//
+//            return iService;
+//        } catch (Exception e) {
+//
+//            return null;
+//        }
+//    }
 
     /**
      * 返回成功

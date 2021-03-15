@@ -5,13 +5,11 @@
     <parent>
         <artifactId>hibase-service</artifactId>
         <groupId>com.hibase</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.hibase</groupId>
     <artifactId>hibase-web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
 
 
 </project>

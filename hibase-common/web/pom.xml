@@ -5,13 +5,11 @@
     <parent>
         <artifactId>hibase-common</artifactId>
         <groupId>com.hibase</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.hibase</groupId>
     <artifactId>web</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -26,7 +24,7 @@
         <dependency>
             <groupId>com.hibase</groupId>
             <artifactId>core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <!--spring web相关包-->
         <dependency>
@@ -46,6 +44,12 @@
         </dependency>
         <!--mybatis plus依赖包-->
         <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.1.0</version>
@@ -59,18 +63,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
-            <version>2.1.4.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
-            <version>2.6.0</version>
         </dependency>
         <!--开发相关-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
         <!--测试框架-->
@@ -83,18 +84,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <version>RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.1</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
-            <version>2.0.1.Final</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
